@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Student's Form</title>
+    </head>
+    <h1>
+        Student's Information Sheet
+    </h1>
+    <form>
+        <h2><label for="studentname">Name of Student</label></h2>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="mname">Middle Name:</label><br>
+        <input type="text" id="mname" name="mname"><br>
+        <h2><label for="address">Address</label></h2>
+        <label for="city">Municipality/City</label><br>
+        <input type="text" id="city" name="city"><br>
+        <label for="province">Province</label><br>
+        <input type="text" id="province" name="province"><br>
+        <label for="zipcode">ZIP Code</label><br>
+        <input type="text" id="zipcode" name="zipcode" maxlength="4" placeholder="Ex. 1234"><br><br>
+        <label for="birthday">Birth Date</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <h2><label for="other">Other Information</label></h2>
+        <label for="sex">Sex</label><br>
+        <input type="radio" id="male" name="sex" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="sex" value="Female">
+        <label for="female">Female</label><br><br>
+        <label for="status">Civil Status</label><br>
+        <select name="status" id="status">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Ex. john@gmail.com"><br><br>
+        <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course" placeholder="Ex. BS Mathematics"><br><br>
+        <label for="univ">University/College:</label><br>
+        <input type="text" id="univ" name="univ"><br><br>
+        <label for="parent1">Name of Mother/Guardian:</label><br>
+        <input type="text" id="parent1" name="parent1" placeholder="First Name M. Last Name"><br><br>
+        <label for="parent2">Name of Father:</label><br>
+        <input type="text" id="parent2" name="parent2" placeholder="First Name M. Last Name"><br><br>
+        <label for="disc">I hereby certify that above information is true and correct.</label>
+        <input type="submit" value="Submit credentials">
+    </form>
+</html>
